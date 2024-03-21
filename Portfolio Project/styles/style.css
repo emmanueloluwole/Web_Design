@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+    width: 100%;
+  }
+
+main{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.main-nav{
+    background-color: transparent;
+    justify-content: end;
+    display: flex;
+    height: 60px;
+
+}
+
+nav ul{
+    text-align: center;
+    font-size: 1.2em;
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.901);
+    padding:1px;
+    width: 100%;
+
+    color: white;
+}
+nav ul li:hover{
+    background-color: white;
+    
+}
+nav ul li{
+    list-style-type: none;
+  
+    display: inline;
+    padding: 13px;
+    margin: 3px;
+    border-radius: 22px;
+}
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.section-content{
+    max-width: 1000px;
+    color: white;
+    text-align: center;
+}
+.section-content h1{
+    font-size: 50px;
+    padding: 30px 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+}
+.section-content p{
+    font-size: 40px;
+    padding: 0px 10%;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+.buttons{
+    border-radius: 15px;
+    
+    background-color: orange;
+    margin: 0px 32%;
+}
+
+.buttons a{
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+.section2{
+    padding: 25px;
+}
+#active{
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    padding: 7px;
+}
+footer{
+    background-color: transparent;
+    padding: 3px;
+    margin-top: 10px;
+    text-align: center;
+}
+.logo{
+    font-size: 30px;
+    font-family: cursive;
+    color: white;
+    font-weight:900 ;
+}
